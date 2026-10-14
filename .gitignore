@@ -1,0 +1,17 @@
+# secrets / environments
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# generated: run outputs, caches, runtime state
+output/
+create_agent/serene/.cache/
+create_agent/serene/history.json
+
+# personal / learning material, not part of the portfolio
+guidance.md
+add_tool.md
+create_agent/LearnDecorator.py
+*.docx
+~$*
